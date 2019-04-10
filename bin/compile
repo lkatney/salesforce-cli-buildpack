@@ -23,7 +23,7 @@ source $BP_DIR/lib/stdlib.sh
 
 ### Setup functions
 ### To get latest versions use below link:
-https://developer.salesforce.com/media/salesforce-cli/sfdx-cli/channels/stable/sfdx-cli-linux-x64.tar.xz
+###https://developer.salesforce.com/media/salesforce-cli/sfdx-cli/channels/stable/sfdx-cli-linux-x64.tar.xz
 
 ###This installation is specific for SFDX version v6.56.0
 install_sfdx_cli() {
