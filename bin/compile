@@ -30,7 +30,7 @@ source $BP_DIR/lib/stdlib.sh
 
 ###This installation is specific for SFDX version v7.72.0
 install_sfdx_cli() {
-  log "Downloading Salesforce CLI tarball ..."
+  log "Downloading Salesforce CLI tarball v7.72.0 ..."
   mkdir sfdx && curl --silent --location "https://developer.salesforce.com/media/salesforce-cli/sfdx-cli/channels/stable/sfdx-cli-v7.72.0-697e9faee2-linux-x64.tar.xz" | tar xJ -C sfdx --strip-components 1
 
   log "Copying Salesforce CLI binary ..."
